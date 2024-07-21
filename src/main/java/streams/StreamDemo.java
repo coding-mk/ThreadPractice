@@ -20,7 +20,8 @@ public class StreamDemo {
                 new Student("Nandini", 4, 40),
                 new Student("Manish", 5, 90),
                 new Student("Aditya", 3, 95),
-                new Student("Shravanti", 6, 90)
+                new Student("Shravanti", 6, 90),
+                new Student("Nagesh", 7, 55)
         );
 
         System.out.println(studentList.stream().filter((x) -> x.marks > 80).toList());
